@@ -5,7 +5,7 @@ var process = require('child_process');
 var Promise = require('bluebird');
 
 function splitVideo(index) {
-    var chunkLength = 5;
+    var chunkLength = 3;
 
     var startSS = "00" + (index * chunkLength % 60);
     var startMM = "00" + parseInt(index * chunkLength / 60);
@@ -13,14 +13,20 @@ function splitVideo(index) {
     startMM = startMM.slice(startMM.length - 2, startMM.length);
     return new Promise(resolve => {
         var cmd = `
-            ffmpeg -ss 00:${startMM}:${startSS} -i source.mp4 -c copy -t 00:00:0${chunkLength} ./chunk/h/chunk-${index}.mp4 && 
-            cd chunk/h && mp4box -dash 5000 -frag 1000 chunk-${index}.mp4 && cd ../.. && 
+            ffmpeg -ss 00:${startMM}:${startSS} -i source.mp4 -c copy -t 00:00:0${chunkLength} ./chunk/q5/chunk-${index}.mp4 && 
+    
+            ffmpeg -i ./chunk/q5/chunk-${index}.mp4 -s 1600x900 ./chunk/q4/chunk-${index}.mp4 && 
+            ffmpeg -i ./chunk/q5/chunk-${index}.mp4 -s 1280x720 ./chunk/q3/chunk-${index}.mp4 && 
+            ffmpeg -i ./chunk/q5/chunk-${index}.mp4 -s 960x540 ./chunk/q2/chunk-${index}.mp4 && 
+            ffmpeg -i ./chunk/q5/chunk-${index}.mp4 -s 640x360 ./chunk/q1/chunk-${index}.mp4 && 
 
-            ffmpeg -i ./chunk/h/chunk-${index}.mp4 -s 960x540 ./chunk/m/chunk-${index}.mp4 && 
-            cd chunk/m && mp4box -dash 5000 -frag 1000 chunk-${index}.mp4 && cd ../.. &&
-            
-            ffmpeg -i ./chunk/h/chunk-${index}.mp4 -s 640x360 ./chunk/l/chunk-${index}.mp4 && 
-            cd chunk/l && mp4box -dash 5000 -frag 1000 chunk-${index}.mp4 && cd ../..
+            cd chunk &&
+                cd q5 && mp4box -dash ${chunkLength}000 chunk-${index}.mp4 && cd .. &&
+                cd q4 && mp4box -dash ${chunkLength}000 chunk-${index}.mp4 && cd .. && 
+                cd q3 && mp4box -dash ${chunkLength}000 chunk-${index}.mp4 && cd .. && 
+                cd q2 && mp4box -dash ${chunkLength}000 chunk-${index}.mp4 && cd .. && 
+                cd q1 && mp4box -dash ${chunkLength}000 chunk-${index}.mp4 && cd .. &&
+            cd ..
         `;
         console.log(cmd);
         process.exec(cmd, (error, stdout, stderr) => {
@@ -32,10 +38,6 @@ function splitVideo(index) {
     })
 }
 
-
-// for (var i = 0; i < 30; i++) {
-//     splitVideo(i);
-// }
-
-splitVideo(0)
-splitVideo(1)
+for (var i = 0; i < 5; i++) {
+    splitVideo(i);
+}
