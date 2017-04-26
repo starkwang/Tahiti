@@ -1,0 +1,265 @@
+"source-5min.mp4": Dumping meta-information...
+ "source-5min.mp4": type ftyp (ftyp)
+  "source-5min.mp4": majorBrand = isom
+  "source-5min.mp4": minorVersion = 512 (0x00000200)
+  "source-5min.mp4": <table entries suppressed>
+ "source-5min.mp4": type free (free)
+ "source-5min.mp4": type mdat (mdat)
+ "source-5min.mp4": type moov (moov)
+  "source-5min.mp4": type mvhd (moov.mvhd)
+   "source-5min.mp4": version = 0 (0x00)
+   "source-5min.mp4": flags = 0 (0x000000)
+   "source-5min.mp4": creationTime = 0 (0x00000000)
+   "source-5min.mp4": modificationTime = 0 (0x00000000)
+   "source-5min.mp4": timeScale = 1000 (0x000003e8)
+   "source-5min.mp4": duration = 300011 (0x000493eb)
+   "source-5min.mp4": rate = 1.000000
+   "source-5min.mp4": volume = 1.000000
+   "source-5min.mp4": reserved1 = <70 bytes>
+   "source-5min.mp4": nextTrackId = 3 (0x00000003)
+  "source-5min.mp4": type trak (moov.trak)
+   "source-5min.mp4": type tkhd (moov.trak.tkhd)
+    "source-5min.mp4": version = 0 (0x00)
+    "source-5min.mp4": flags = 3 (0x000003)
+    "source-5min.mp4": creationTime = 0 (0x00000000)
+    "source-5min.mp4": modificationTime = 0 (0x00000000)
+    "source-5min.mp4": trackId = 1 (0x00000001)
+    "source-5min.mp4": reserved1 = <4 bytes>  00 00 00 00  |....|
+    "source-5min.mp4": duration = 300009 (0x000493e9)
+    "source-5min.mp4": reserved2 = <8 bytes>  00 00 00 00 00 00 00 00  |........|
+    "source-5min.mp4": layer = 0 (0x0000)
+    "source-5min.mp4": alternate_group = 0 (0x0000)
+    "source-5min.mp4": volume = 0.000000
+    "source-5min.mp4": reserved3 = <2 bytes>  00 00  |..|
+    "source-5min.mp4": matrix = <36 bytes>
+    "source-5min.mp4": width = 1920.000000
+    "source-5min.mp4": height = 1080.000000
+   "source-5min.mp4": type edts (moov.trak.edts)
+    "source-5min.mp4": type elst (moov.trak.edts.elst)
+     "source-5min.mp4": version = 0 (0x00)
+     "source-5min.mp4": flags = 0 (0x000000)
+     "source-5min.mp4": entryCount = 1 (0x00000001)
+     "source-5min.mp4": <table entries suppressed>
+   "source-5min.mp4": type mdia (moov.trak.mdia)
+    "source-5min.mp4": type mdhd (moov.trak.mdia.mdhd)
+     "source-5min.mp4": version = 0 (0x00)
+     "source-5min.mp4": flags = 0 (0x000000)
+     "source-5min.mp4": creationTime = 0 (0x00000000)
+     "source-5min.mp4": modificationTime = 0 (0x00000000)
+     "source-5min.mp4": timeScale = 90000 (0x00015f90)
+     "source-5min.mp4": duration = 27000724 (0x019bff94)
+     "source-5min.mp4": language = Undetermined (0x55c4)
+     "source-5min.mp4": reserved = <2 bytes>  00 00  |..|
+    "source-5min.mp4": type hdlr (moov.trak.mdia.hdlr)
+     "source-5min.mp4": version = 0 (0x00)
+     "source-5min.mp4": flags = 0 (0x000000)
+     "source-5min.mp4": reserved1 = <4 bytes>  00 00 00 00  |....|
+     "source-5min.mp4": handlerType = vide
+     "source-5min.mp4": reserved2 = <12 bytes>  00 00 00 00 00 00 00 00 00 00 00 00  |............|
+     "source-5min.mp4": name = VideoHandler
+    "source-5min.mp4": type minf (moov.trak.mdia.minf)
+     "source-5min.mp4": type vmhd (moov.trak.mdia.minf.vmhd)
+      "source-5min.mp4": version = 0 (0x00)
+      "source-5min.mp4": flags = 1 (0x000001)
+      "source-5min.mp4": reserved = <8 bytes>  00 00 00 00 00 00 00 00  |........|
+     "source-5min.mp4": type dinf (moov.trak.mdia.minf.dinf)
+      "source-5min.mp4": type dref (moov.trak.mdia.minf.dinf.dref)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 1 (0x00000001)
+       "source-5min.mp4": type url  (moov.trak.mdia.minf.dinf.dref.url )
+        "source-5min.mp4": version = 0 (0x00)
+        "source-5min.mp4": flags = 1 (0x000001)
+        "source-5min.mp4": location = (null)
+     "source-5min.mp4": type stbl (moov.trak.mdia.minf.stbl)
+      "source-5min.mp4": type stsd (moov.trak.mdia.minf.stbl.stsd)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 1 (0x00000001)
+       "source-5min.mp4": type avc1 (moov.trak.mdia.minf.stbl.stsd.avc1)
+        "source-5min.mp4": reserved1 = <6 bytes>  00 00 00 00 00 00  |......|
+        "source-5min.mp4": dataReferenceIndex = 1 (0x0001)
+        "source-5min.mp4": reserved2 = <16 bytes>  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  |................|
+        "source-5min.mp4": width = 1920 (0x0780)
+        "source-5min.mp4": height = 1080 (0x0438)
+        "source-5min.mp4": reserved3 = <14 bytes>  00 48 00 00 00 48 00 00 00 00 00 00 00 01  |.H...H........|
+        "source-5min.mp4": compressorName = 
+        "source-5min.mp4": reserved4 = <4 bytes>  00 18 ff ff  |....|
+        "source-5min.mp4": type avcC (moov.trak.mdia.minf.stbl.stsd.avc1.avcC)
+         "source-5min.mp4": configurationVersion = 1 (0x01)
+         "source-5min.mp4": AVCProfileIndication = 66 (0x42)
+         "source-5min.mp4": profile_compatibility = 192 (0xc0)
+         "source-5min.mp4": AVCLevelIndication = 30 (0x1e)
+         "source-5min.mp4": reserved = 63 (0x3f) <6 bits>
+         "source-5min.mp4": lengthSizeMinusOne = 3 (0x3) <2 bits>
+         "source-5min.mp4": reserved1 = 7 (0x7) <3 bits>
+         "source-5min.mp4": numOfSequenceParameterSets = 1 (0x01) <5 bits>
+         "source-5min.mp4": <table entries suppressed>
+         "source-5min.mp4": numOfPictureParameterSets = 1 (0x01)
+         "source-5min.mp4": <table entries suppressed>
+        "source-5min.mp4": type pasp (moov.trak.mdia.minf.stbl.stsd.avc1.pasp)
+         "source-5min.mp4": hSpacing = 1 (0x00000001)
+         "source-5min.mp4": vSpacing = 1 (0x00000001)
+      "source-5min.mp4": type stts (moov.trak.mdia.minf.stbl.stts)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 3594 (0x00000e0a)
+       "source-5min.mp4": <table entries suppressed>
+      "source-5min.mp4": type stss (moov.trak.mdia.minf.stbl.stss)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 103 (0x00000067)
+       "source-5min.mp4": <table entries suppressed>
+      "source-5min.mp4": type stsc (moov.trak.mdia.minf.stbl.stsc)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 1 (0x00000001)
+       "source-5min.mp4": <table entries suppressed>
+      "source-5min.mp4": type stsz (moov.trak.mdia.minf.stbl.stsz)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": sampleSize = 0 (0x00000000)
+       "source-5min.mp4": sampleCount = 7193 (0x00001c19)
+       "source-5min.mp4": <table entries suppressed>
+      "source-5min.mp4": type stco (moov.trak.mdia.minf.stbl.stco)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 7193 (0x00001c19)
+       "source-5min.mp4": <table entries suppressed>
+  "source-5min.mp4": type trak (moov.trak)
+   "source-5min.mp4": type tkhd (moov.trak.tkhd)
+    "source-5min.mp4": version = 0 (0x00)
+    "source-5min.mp4": flags = 3 (0x000003)
+    "source-5min.mp4": creationTime = 0 (0x00000000)
+    "source-5min.mp4": modificationTime = 0 (0x00000000)
+    "source-5min.mp4": trackId = 2 (0x00000002)
+    "source-5min.mp4": reserved1 = <4 bytes>  00 00 00 00  |....|
+    "source-5min.mp4": duration = 300011 (0x000493eb)
+    "source-5min.mp4": reserved2 = <8 bytes>  00 00 00 00 00 00 00 00  |........|
+    "source-5min.mp4": layer = 0 (0x0000)
+    "source-5min.mp4": alternate_group = 1 (0x0001)
+    "source-5min.mp4": volume = 1.000000
+    "source-5min.mp4": reserved3 = <2 bytes>  00 00  |..|
+    "source-5min.mp4": matrix = <36 bytes>
+    "source-5min.mp4": width = 0.000000
+    "source-5min.mp4": height = 0.000000
+   "source-5min.mp4": type edts (moov.trak.edts)
+    "source-5min.mp4": type elst (moov.trak.edts.elst)
+     "source-5min.mp4": version = 0 (0x00)
+     "source-5min.mp4": flags = 0 (0x000000)
+     "source-5min.mp4": entryCount = 1 (0x00000001)
+     "source-5min.mp4": <table entries suppressed>
+   "source-5min.mp4": type mdia (moov.trak.mdia)
+    "source-5min.mp4": type mdhd (moov.trak.mdia.mdhd)
+     "source-5min.mp4": version = 0 (0x00)
+     "source-5min.mp4": flags = 0 (0x000000)
+     "source-5min.mp4": creationTime = 0 (0x00000000)
+     "source-5min.mp4": modificationTime = 0 (0x00000000)
+     "source-5min.mp4": timeScale = 48000 (0x0000bb80)
+     "source-5min.mp4": duration = 14400512 (0x00dbbc00)
+     "source-5min.mp4": language = Undetermined (0x55c4)
+     "source-5min.mp4": reserved = <2 bytes>  00 00  |..|
+    "source-5min.mp4": type hdlr (moov.trak.mdia.hdlr)
+     "source-5min.mp4": version = 0 (0x00)
+     "source-5min.mp4": flags = 0 (0x000000)
+     "source-5min.mp4": reserved1 = <4 bytes>  00 00 00 00  |....|
+     "source-5min.mp4": handlerType = soun
+     "source-5min.mp4": reserved2 = <12 bytes>  00 00 00 00 00 00 00 00 00 00 00 00  |............|
+     "source-5min.mp4": name = SoundHandler
+    "source-5min.mp4": type minf (moov.trak.mdia.minf)
+     "source-5min.mp4": type smhd (moov.trak.mdia.minf.smhd)
+      "source-5min.mp4": version = 0 (0x00)
+      "source-5min.mp4": flags = 0 (0x000000)
+      "source-5min.mp4": reserved = <4 bytes>  00 00 00 00  |....|
+     "source-5min.mp4": type dinf (moov.trak.mdia.minf.dinf)
+      "source-5min.mp4": type dref (moov.trak.mdia.minf.dinf.dref)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 1 (0x00000001)
+       "source-5min.mp4": type url  (moov.trak.mdia.minf.dinf.dref.url )
+        "source-5min.mp4": version = 0 (0x00)
+        "source-5min.mp4": flags = 1 (0x000001)
+        "source-5min.mp4": location = (null)
+     "source-5min.mp4": type stbl (moov.trak.mdia.minf.stbl)
+      "source-5min.mp4": type stsd (moov.trak.mdia.minf.stbl.stsd)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 1 (0x00000001)
+       "source-5min.mp4": type mp4a (moov.trak.mdia.minf.stbl.stsd.mp4a)
+        "source-5min.mp4": reserved1 = <6 bytes>  00 00 00 00 00 00  |......|
+        "source-5min.mp4": dataReferenceIndex = 1 (0x0001)
+        "source-5min.mp4": soundVersion = 0 (0x0000)
+        "source-5min.mp4": reserved2 = <6 bytes>  00 00 00 00 00 00  |......|
+        "source-5min.mp4": channels = 2 (0x0002)
+        "source-5min.mp4": sampleSize = 16 (0x0010)
+        "source-5min.mp4": compressionId = 0 (0x0000)
+        "source-5min.mp4": packetSize = 0 (0x0000)
+        "source-5min.mp4": timeScale = 3145728000 (0xbb800000)
+        "source-5min.mp4": type esds (moov.trak.mdia.minf.stbl.stsd.mp4a.esds)
+         "source-5min.mp4": version = 0 (0x00)
+         "source-5min.mp4": flags = 0 (0x000000)
+         "source-5min.mp4": ESID = 2 (0x0002)
+         "source-5min.mp4": streamDependenceFlag = 0 (0x0) <1 bits>
+         "source-5min.mp4": URLFlag = 0 (0x0) <1 bits>
+         "source-5min.mp4": OCRstreamFlag = 0 (0x0) <1 bits>
+         "source-5min.mp4": streamPriority = 0 (0x00) <5 bits>
+         "source-5min.mp4": decConfigDescr
+          "source-5min.mp4": objectTypeId = 64 (0x40)
+          "source-5min.mp4": streamType = 5 (0x05) <6 bits>
+          "source-5min.mp4": upStream = 0 (0x0) <1 bits>
+          "source-5min.mp4": reserved = 1 (0x1) <1 bits>
+          "source-5min.mp4": bufferSizeDB = 0 (0x000000) <24 bits>
+          "source-5min.mp4": maxBitrate = 164855 (0x000283f7)
+          "source-5min.mp4": avgBitrate = 164855 (0x000283f7)
+          "source-5min.mp4": decSpecificInfo
+           "source-5min.mp4": info = <2 bytes>  11 90  |..|
+          "source-5min.mp4": profileLevelIndicationIndexDescr
+         "source-5min.mp4": slConfigDescr
+          "source-5min.mp4": predefined = 2 (0x02)
+         "source-5min.mp4": ipiPtr
+         "source-5min.mp4": ipIds
+         "source-5min.mp4": ipmpDescrPtr
+         "source-5min.mp4": langDescr
+         "source-5min.mp4": qosDescr
+         "source-5min.mp4": regDescr
+         "source-5min.mp4": extDescr
+      "source-5min.mp4": type stts (moov.trak.mdia.minf.stbl.stts)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 1 (0x00000001)
+       "source-5min.mp4": <table entries suppressed>
+      "source-5min.mp4": type stsc (moov.trak.mdia.minf.stbl.stsc)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 647 (0x00000287)
+       "source-5min.mp4": <table entries suppressed>
+      "source-5min.mp4": type stsz (moov.trak.mdia.minf.stbl.stsz)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": sampleSize = 0 (0x00000000)
+       "source-5min.mp4": sampleCount = 14063 (0x000036ef)
+       "source-5min.mp4": <table entries suppressed>
+      "source-5min.mp4": type stco (moov.trak.mdia.minf.stbl.stco)
+       "source-5min.mp4": version = 0 (0x00)
+       "source-5min.mp4": flags = 0 (0x000000)
+       "source-5min.mp4": entryCount = 7193 (0x00001c19)
+       "source-5min.mp4": <table entries suppressed>
+  "source-5min.mp4": type udta (moov.udta)
+   "source-5min.mp4": type meta (moov.udta.meta)
+    "source-5min.mp4": version = 0 (0x00)
+    "source-5min.mp4": flags = 0 (0x000000)
+    "source-5min.mp4": type hdlr (moov.udta.meta.hdlr)
+     "source-5min.mp4": version = 0 (0x00)
+     "source-5min.mp4": flags = 0 (0x000000)
+     "source-5min.mp4": reserved1 = 0 (0x00000000)
+     "source-5min.mp4": handlerType = <4 bytes>  6d 64 69 72  |mdir|
+     "source-5min.mp4": reserved2 = <12 bytes>  61 70 70 6c 00 00 00 00 00 00 00 00  |appl........|
+     "source-5min.mp4": name = <1 bytes>  00  |.|
+    "source-5min.mp4": type ilst (moov.udta.meta.ilst)
+     "source-5min.mp4": type ©too (moov.udta.meta.ilst.©too)
+      "source-5min.mp4": type data (moov.udta.meta.ilst.©too.data)
+       "source-5min.mp4": typeReserved = 0 (0x0000)
+       "source-5min.mp4": typeSetIdentifier = 0 (0x00)
+       "source-5min.mp4": typeCode = UTF-8 (0x01)
+       "source-5min.mp4": locale = 0 (0x00000000)
+       "source-5min.mp4": metadata = <13 bytes>  4c 61 76 66 35 37 2e 35 36 2e 31 30 30  |Lavf57.56.100|

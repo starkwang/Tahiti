@@ -5,7 +5,7 @@ var process = require('child_process');
 var Promise = require('bluebird');
 
 function splitVideo(index) {
-    var chunkLength = 3;
+    var chunkLength = 2;
 
     var startSS = "00" + (index * chunkLength % 60);
     var startMM = "00" + parseInt(index * chunkLength / 60);
@@ -13,7 +13,7 @@ function splitVideo(index) {
     startMM = startMM.slice(startMM.length - 2, startMM.length);
     return new Promise(resolve => {
         var cmd = `
-            ffmpeg -ss 00:${startMM}:${startSS} -i source.mp4 -c copy -t 00:00:0${chunkLength} ./chunk/q5/chunk-${index}.mp4 && 
+            ffmpeg -ss 00:${startMM}:${startSS} -accurate_seek -i source2.mp4 -c copy -avoid_negative_ts 1 -t 00:00:0${chunkLength} ./chunk/q5/chunk-${index}.mp4 && 
     
             ffmpeg -i ./chunk/q5/chunk-${index}.mp4 -s 1600x900 ./chunk/q4/chunk-${index}.mp4 && 
             ffmpeg -i ./chunk/q5/chunk-${index}.mp4 -s 1280x720 ./chunk/q3/chunk-${index}.mp4 && 
@@ -38,6 +38,6 @@ function splitVideo(index) {
     })
 }
 
-for (var i = 0; i < 5; i++) {
+for (var i = 40; i < 40; i++) {
     splitVideo(i);
 }
